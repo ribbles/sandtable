@@ -63,13 +63,13 @@ class machiner(Machine):
 
     def home(self):
         self.send('$X')
-        self.send('G54')
-        self.send('G92.1')
-        self.send('G91')
-        self.send('G0X%gY%g' % (-10*60, -10*60))    # FIX: Remove hardcoded values
-        self.send('G0X5Y5')                         # FIX: hardcoded, backoff
-        self.send('G90')
-        self.send('G92 X0 Y0 Z0')
+#         self.send('G54')
+#         self.send('G92.1')
+#         self.send('G91')
+#         self.send('G0X%gY%g' % (-10*60, -10*60))    # FIX: Remove hardcoded values
+#         self.send('G0X5Y5')                         # FIX: hardcoded, backoff
+#         self.send('G90')
+#         self.send('G92 X0 Y0 Z0')
         #time.sleep(10.)     # FIX: This sucks
         #self.send(chr(24))
         #self.send('$X')

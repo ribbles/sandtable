@@ -13,14 +13,13 @@ TABLE_WIDTH         = 14.0
 TABLE_LENGTH        = 11.2
 
 LED_DRIVER          = None
-"""
 LED_PARAMS          = None
-LED_COLUMNS         = 172 
-LED_ROWS            = 116
-LED_PERIOD          = 1.0 / 45.0
-LED_OFFSETS         = [ (1,2), (4,4) ]
+LED_COLUMNS         = None 
+LED_ROWS            = None
+LED_PERIOD          = None
+LED_OFFSETS         = None
 LED_MAPPING         = None
-"""
+
 
 MACHINE             = "grbl"
 MACHINE_UNITS       = "mm"
